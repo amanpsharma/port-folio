@@ -25,14 +25,15 @@ npx serve
 
 Then visit `http://localhost:8000`.
 
-## Before deploy — replace placeholders
+## Live site
+
+Deployed at **https://aman-one-sharma.vercel.app/**
+
+## Remaining placeholders
 
 | File | Placeholder | What to set |
 |---|---|---|
-| `index.html` | `YOUR_DOMAIN` (Plausible `data-domain`) | Your deployed domain, e.g. `amansharma.dev` |
 | `index.html` | `YOUR_FORM_ID` (Formspree `action`) | Your Formspree form ID |
-| `robots.txt` | `YOUR_DOMAIN` | Your deployed domain |
-| `sitemap.xml` | `YOUR_DOMAIN` | Your deployed domain |
 | project root | `Aman_Resume.pdf` | Drop the actual PDF in place |
 
 ## Deploy
