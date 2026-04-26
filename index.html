@@ -10,11 +10,8 @@
       content="Senior Software Engineer at Litmus7 with 6+ years building React, JavaScript, and responsive web apps. Based in Bangalore — open to work."
     />
     <meta name="author" content="Aman Sharma" />
-    <meta
-      name="keywords"
-      content="Aman Sharma, Senior Software Engineer, Litmus7, React Developer, JavaScript, Redux, Material UI, Bangalore"
-    />
-    <meta name="theme-color" content="#0c0c0c" />
+    <meta name="theme-color" content="#08090a" />
+    <meta name="color-scheme" content="dark light" />
 
     <meta property="og:type" content="website" />
     <meta
@@ -26,14 +23,16 @@
       content="Senior Software Engineer at Litmus7 with 6+ years building React, JavaScript, and responsive web apps. Based in Bangalore — open to work."
     />
     <meta property="og:url" content="https://aman-one-sharma.vercel.app/" />
-    <meta property="og:image" content="https://aman-one-sharma.vercel.app/assets/og-card.jpg" />
+    <meta
+      property="og:image"
+      content="https://aman-one-sharma.vercel.app/assets/og-card.jpg"
+    />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
       content="Aman Sharma — Senior Software Engineer at Litmus7. View portfolio →"
     />
-    <meta property="og:locale" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta
@@ -44,7 +43,10 @@
       name="twitter:description"
       content="Senior Software Engineer at Litmus7 with 6+ years building React, JavaScript, and responsive web apps. Based in Bangalore — open to work."
     />
-    <meta name="twitter:image" content="https://aman-one-sharma.vercel.app/assets/og-card.jpg" />
+    <meta
+      name="twitter:image"
+      content="https://aman-one-sharma.vercel.app/assets/og-card.jpg"
+    />
 
     <link rel="canonical" href="https://aman-one-sharma.vercel.app/" />
 
@@ -54,58 +56,24 @@
         "@type": "Person",
         "name": "Aman Sharma",
         "jobTitle": "Senior Software Engineer",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Litmus7"
-        },
-        "alumniOf": [
-          {
-            "@type": "CollegeOrUniversity",
-            "name": "Gujarat Technological University"
-          },
-          {
-            "@type": "CollegeOrUniversity",
-            "name": "Veer Narmad South Gujarat University"
-          }
-        ],
+        "worksFor": { "@type": "Organization", "name": "Litmus7" },
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Sarjapur, Bangalore",
           "addressCountry": "IN"
         },
-        "knowsAbout": [
-          "React",
-          "JavaScript",
-          "Redux",
-          "Material UI",
-          "Front-end Development",
-          "A/B Testing",
-          "Responsive Design"
-        ],
+        "knowsAbout": ["React", "JavaScript", "Redux", "Material UI", "A/B Testing"],
         "sameAs": [
           "https://github.com/amanpsharma",
           "https://www.linkedin.com/in/amanpsharma/"
         ]
       }
     </script>
+
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon-32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon-16.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/apple-touch-icon.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -120,147 +88,78 @@
     <link
       rel="preload"
       as="style"
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@400;700;900&family=Syne:wght@400;500;600;700;800&display=swap"
-      onload="
-        this.onload = null;
-        this.rel = 'stylesheet';
-      "
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@300;400;700;900&family=Geist+Mono:wght@400;500&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@400;700;900&family=Syne:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@300;400;700;900&family=Geist+Mono:wght@400;500&display=swap"
       />
     </noscript>
-    <link rel="stylesheet" href="style.css?v=4" />
+    <link rel="stylesheet" href="style.css?v=10" />
 
     <script>
       (function () {
         try {
           var t = localStorage.getItem("theme");
-          if (t === "dark" || t === "light") {
+          if (t === "dark" || t === "light")
             document.documentElement.setAttribute("data-theme", t);
-          }
         } catch (e) {}
       })();
     </script>
-    <script defer src="script.js?v=4"></script>
+    <script defer src="script.js?v=10"></script>
 
-    <!--
-      Analytics — Plausible (privacy-friendly, no cookies, GDPR-safe).
-      Note: requires the domain to be added in your Plausible dashboard
-      before stats start being recorded.
-    -->
     <script
       defer
       data-domain="aman-one-sharma.vercel.app"
       src="https://plausible.io/js/script.js"
     ></script>
-
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
-    -->
   </head>
+
   <body>
-    <div class="cursor" id="cursor" aria-hidden="true"></div>
+    <!-- Grain overlay -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
     <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
 
-    <!-- Reusable SVG icon sprite -->
-    <svg
-      width="0"
-      height="0"
-      style="position: absolute"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <defs>
-        <symbol id="i-arrow-up-right" viewBox="0 0 24 24">
-          <line
-            x1="5"
-            y1="19"
-            x2="19"
-            y2="5"
-            stroke="currentColor"
-            stroke-width="2.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            fill="none"
-          />
-          <polyline
-            points="5 5 19 5 19 19"
-            stroke="currentColor"
-            stroke-width="2.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            fill="none"
-          />
-        </symbol>
-      </defs>
-    </svg>
-
-    <a href="#hero" class="skip-link">Skip to content</a>
+    <a href="#main" class="skip-link">Skip to content</a>
 
     <!-- NAV -->
-    <nav id="mainNav" aria-label="Primary">
-      <a href="#hero" class="logo" id="logoHome"
-        >Aman<span class="dot">.</span></a
-      >
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#experience" data-section="experience">Experience</a></li>
-        <li><a href="#work" data-section="work">Work</a></li>
-        <li><a href="#skills" data-section="skills">Skills</a></li>
-        <li><a href="#about" data-section="about">About</a></li>
-      </ul>
+    <header class="nav" id="nav">
+      <a href="#hero" class="brand" aria-label="Aman — home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="currentColor" />
+            <path d="M8 22 L13 10 L18 22 M10 18 H16" stroke="var(--bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="22" cy="20" r="2.4" fill="var(--accent)"/>
+          </svg>
+        </span>
+        <span class="brand-text">Aman</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work" data-magnet>Work</a>
+        <a href="#experience" data-magnet>Experience</a>
+        <a href="#skills" data-magnet>Skills</a>
+        <a href="#contact" data-magnet>Contact</a>
+      </nav>
       <div class="nav-right">
-        <div class="avail-badge">
-          <span class="avail-dot"></span>Available for work
-        </div>
         <button
           type="button"
           class="theme-toggle"
           id="themeToggle"
-          aria-label="Toggle dark mode"
+          aria-label="Toggle theme"
           aria-pressed="false"
         >
-          <svg
-            class="theme-icon theme-icon-sun"
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <circle cx="12" cy="12" r="4" />
-            <path
-              d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
-            />
-          </svg>
-          <svg
-            class="theme-icon theme-icon-moon"
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-          </svg>
+          <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <a href="mailto:amanraj_78@yahoo.in" class="nav-cta">Say hello</a>
+        <a href="#contact" class="nav-cta" data-magnet>
+          <span>Get in touch</span>
+          <span class="nav-cta-dot"></span>
+        </a>
       </div>
       <button
         class="hamburger"
@@ -269,932 +168,465 @@
         aria-expanded="false"
         aria-controls="mobileMenu"
       >
-        <span></span><span></span><span></span>
+        <span></span><span></span>
       </button>
-    </nav>
+    </header>
 
-    <div
-      class="mobile-menu"
-      id="mobileMenu"
-      role="dialog"
-      aria-label="Mobile menu"
-      aria-hidden="true"
-    >
-      <a href="#experience" data-mobile-link>Experience</a>
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile menu" aria-hidden="true">
       <a href="#work" data-mobile-link>Work</a>
+      <a href="#experience" data-mobile-link>Experience</a>
       <a href="#skills" data-mobile-link>Skills</a>
-      <a href="#about" data-mobile-link>About</a>
-      <a href="mailto:amanraj_78@yahoo.in" class="m-cta">Say hello →</a>
+      <a href="#contact" data-mobile-link>Contact</a>
+      <a href="mailto:amanraj_78@yahoo.in" class="m-cta" data-mobile-link>Say hello →</a>
     </div>
 
-    <!-- HERO -->
-    <section class="hero" id="hero">
-      <div class="hero-glow"></div>
-
-      <p class="hero-greeting">
-        <span class="wave" aria-hidden="true">
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.8"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M9 11V7a2 2 0 114 0v4" />
-            <path d="M13 11V6a2 2 0 114 0v8" />
-            <path
-              d="M17 14V9a2 2 0 114 0v6c0 4-3 7-7 7H9a5 5 0 01-5-5v-5a2 2 0 114 0v2"
-            />
-          </svg> </span
-        >, my name is Aman and I am a Senior Software Engineer at Litmus7
-      </p>
-
-      <div>
-        <div class="hero-title">
-          Front&#8209;end
-          <span class="t-arrow" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><use href="#i-arrow-up-right" /></svg>
-          </span>
-          Dev
-        </div>
-        <span class="hero-title-outline">&amp; React Engineer</span>
-      </div>
-
-      <p class="hero-location">based in <span>Sarjapur, Bangalore.</span></p>
-
-      <div class="hero-photo">
-        <picture>
-          <source srcset="assets/photo-transparent.avif" type="image/avif" />
-          <source srcset="assets/photo-transparent.webp" type="image/webp" />
-          <img
-            src="assets/photo-transparent.png"
-            alt="Aman Sharma"
-            width="864"
-            height="1184"
-            loading="eager"
-            decoding="async"
-            fetchpriority="high"
-          />
-        </picture>
-      </div>
-
-      <div class="brand-tags">
-        <span class="brand-tag">Litmus7 · Senior SWE</span>
-        <span class="brand-tag">React &amp; JavaScript</span>
-        <span class="brand-tag">6+ Years Experience</span>
-        <span class="brand-tag">MCA · GTU</span>
-      </div>
-
-      <div class="hero-ctas">
-        <a href="#experience" class="btn btn-dark">See my experience</a>
-        <a href="#contact" class="btn btn-ghost">Let's talk</a>
-        <a href="Aman_Resume.pdf" download class="btn btn-ghost btn-sm"
-          >Download CV ↓</a
-        >
-      </div>
-    </section>
-
-    <!-- MARQUEE -->
-    <div class="marquee-wrap">
-      <div class="marquee-track">
-        <span class="m-item"><span class="m-dot"></span>React JS</span>
-        <span class="m-item"><span class="m-dot"></span>JavaScript</span>
-        <span class="m-item"><span class="m-dot"></span>Redux</span>
-        <span class="m-item"><span class="m-dot"></span>Material UI</span>
-        <span class="m-item"><span class="m-dot"></span>Firebase</span>
-        <span class="m-item"><span class="m-dot"></span>Bootstrap</span>
-        <span class="m-item"><span class="m-dot"></span>CSS</span>
-        <span class="m-item"><span class="m-dot"></span>Git</span>
-        <span class="m-item"><span class="m-dot"></span>API Integration</span>
-        <span class="m-item"><span class="m-dot"></span>React JS</span>
-        <span class="m-item"><span class="m-dot"></span>JavaScript</span>
-        <span class="m-item"><span class="m-dot"></span>Redux</span>
-        <span class="m-item"><span class="m-dot"></span>Material UI</span>
-        <span class="m-item"><span class="m-dot"></span>Firebase</span>
-        <span class="m-item"><span class="m-dot"></span>Bootstrap</span>
-        <span class="m-item"><span class="m-dot"></span>CSS</span>
-        <span class="m-item"><span class="m-dot"></span>Git</span>
-        <span class="m-item"><span class="m-dot"></span>API Integration</span>
-      </div>
-    </div>
-
-    <!-- ABOUT -->
-    <section class="section-about" id="about">
-      <div>
-        <p class="section-label reveal">About me</p>
-        <h2 class="about-heading reveal reveal-2">
-          Qualified developer<br />with <em>an eye for detail.</em>
-        </h2>
-        <p class="about-text reveal reveal-5">
-          I'm Aman — currently a
-          <strong>Senior Software Engineer at Litmus7</strong> with over
-          <strong>6 years of experience</strong> building responsive websites,
-          e-commerce platforms, and ad-serving products. I've worked across
-          agencies and product companies, collaborating with US-based clients
-          and in-house teams alike.<br /><br />
-          I specialise in <strong>React JS</strong>, state management with
-          Redux, and clean UI built on Material UI and Bootstrap. I care about
-          accurate design, fast delivery, and code that actually works in
-          production.
-        </p>
-        <a href="Aman_Resume.pdf" download class="resume-link reveal reveal-8"
-          >Download Resume →</a
-        >
-      </div>
-
-      <div class="about-stats">
-        <div class="stat-item reveal reveal-3">
-          <div class="stat-number">6<span class="accent">+</span></div>
-          <div class="stat-label">Years in front-end development</div>
-        </div>
-        <div class="stat-item reveal reveal-6">
-          <div class="stat-number">3</div>
-          <div class="stat-label">Companies worked at</div>
-        </div>
-        <div class="stat-item reveal reveal-9">
-          <div class="stat-number">MCA</div>
-          <div class="stat-label">Master of Computer Application — GTU</div>
-        </div>
-        <div class="stat-item reveal reveal-10">
-          <div class="stat-number">∞</div>
-          <div class="stat-label">console.log statements written</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section class="section-experience" id="experience">
-      <div class="exp-header">
-        <h2 class="exp-title reveal">Work<br />Experience</h2>
-      </div>
-
-      <div class="exp-list">
-        <div class="exp-item reveal">
-          <div class="exp-meta">
-            <div class="exp-year">Sep 2024 – Present</div>
-            <div class="exp-company">Litmus7</div>
-            <span class="exp-badge">Current</span>
-          </div>
-          <div class="exp-content">
-            <h3 class="exp-role">Senior Software Engineer</h3>
-            <div class="exp-desc">
-              <ul>
-                <li>
-                  Leading front-end development on enterprise-scale React
-                  applications, owning architecture and code quality.
-                </li>
-                <li>
-                  Collaborating with product, design, and backend teams to ship
-                  performant, accessible UI to production.
-                </li>
-                <li>
-                  Mentoring engineers and driving improvements to component
-                  patterns, state management, and delivery velocity.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="exp-item reveal reveal-2">
-          <div class="exp-meta">
-            <div class="exp-year">2021 – Aug 2024</div>
-            <div class="exp-company">Costrategix Technologies Pvt Ltd.</div>
-          </div>
-          <div class="exp-content">
-            <h3 class="exp-role">Front-end Developer</h3>
-            <div class="exp-desc">
-              <ul>
-                <li>
-                  Built the core logic for a streamlined ad-serving platform
-                  that scaled across large user bases.
-                </li>
-                <li>
-                  Part of the team responsible for maintaining the client's
-                  production website.
-                </li>
-                <li>
-                  Worked closely with the project manager on feature delivery
-                  and API integration.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="exp-item reveal reveal-5">
-          <div class="exp-meta">
-            <div class="exp-year">2020 – 2021</div>
-            <div class="exp-company">Bigscal Technologies Pvt Ltd.</div>
-          </div>
-          <div class="exp-content">
-            <h3 class="exp-role">Front-end Developer</h3>
-            <div class="exp-desc">
-              <ul>
-                <li>
-                  Collaborated with a US-based client to deliver front-end work
-                  on schedule.
-                </li>
-                <li>
-                  Ensured pixel-accurate design implementation and proficient
-                  API integration using React JS.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="exp-item reveal reveal-8">
-          <div class="exp-meta">
-            <div class="exp-year">2018 – 2019</div>
-            <div class="exp-company">Excelsior Code Studio</div>
-          </div>
-          <div class="exp-content">
-            <h3 class="exp-role">Front-end Developer</h3>
-            <div class="exp-desc">
-              <ul>
-                <li>
-                  Designed, developed, and relaunched responsive websites and
-                  e-commerce sites for multiple clients.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="section-education" id="education">
-      <h2 class="edu-title reveal">Education</h2>
-      <div class="edu-list">
-        <div class="edu-item reveal reveal-2">
-          <div>
-            <div class="edu-year">2014 – 2017</div>
-            <div class="edu-uni">Gujarat Technological University</div>
-          </div>
-          <div class="edu-degree">Master of Computer Application</div>
-        </div>
-        <div class="edu-item reveal reveal-5">
-          <div>
-            <div class="edu-year">2010 – 2013</div>
-            <div class="edu-uni">Veer Narmad South Gujarat University</div>
-          </div>
-          <div class="edu-degree">Bachelor of Computer Application</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- WORK / PROJECTS -->
-    <section class="section-work" id="work">
-      <div class="work-header">
-        <h2 class="work-title reveal">Selected<br />Projects</h2>
-        <a
-          href="https://github.com/amanpsharma"
-          target="_blank"
-          class="see-all reveal reveal-3"
-          >GitHub →</a
-        >
-      </div>
-
-      <div class="work-grid">
-        <div class="wcard wcard-5 reveal">
-          <div class="wcard-inner">
-            <div>
-              <span class="wcard-tag">A/B Testing · E-commerce · Litmus7</span>
-              <h3 class="wcard-title">A/B Testing for<br />Under Armour</h3>
-              <div class="card-pills">
-                <span class="pill pill-light">React JS</span>
-                <span class="pill pill-light">JavaScript</span>
-                <span class="pill pill-light">Experimentation</span>
-              </div>
-            </div>
-            <div class="wcard-bottom">
-              <span class="wcard-year">2024 – Present</span>
-              <div class="wcard-arrow" aria-hidden="true">
-                <svg width="14" height="14" viewBox="0 0 24 24">
-                  <use href="#i-arrow-up-right" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="wcard wcard-1 reveal reveal-1">
-          <div class="wcard-inner">
-            <div>
-              <span class="wcard-tag">Ad Tech · Scaling · API</span>
-              <h3 class="wcard-title">
-                Ad-Serving Platform<br />(Costrategix)
-              </h3>
-              <div class="card-pills">
-                <span class="pill pill-light">React JS</span>
-                <span class="pill pill-light">JavaScript</span>
-                <span class="pill pill-light">API Integration</span>
-              </div>
-            </div>
-            <div class="wcard-bottom">
-              <span class="wcard-year">2021 – 2024</span>
-              <div class="wcard-arrow" aria-hidden="true">
-                <svg width="14" height="14" viewBox="0 0 24 24">
-                  <use href="#i-arrow-up-right" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="wcard wcard-2 reveal reveal-2">
-          <div class="wcard-inner">
-            <div>
-              <span class="wcard-tag">Client Work · US Project</span>
-              <h3 class="wcard-title">React App for<br />US-Based Client</h3>
-              <div class="card-pills">
-                <span class="pill pill-light">React JS</span>
-                <span class="pill pill-light">Redux</span>
-                <span class="pill pill-light">Material UI</span>
-              </div>
-            </div>
-            <div class="wcard-bottom">
-              <span class="wcard-year">2020 – 2021</span>
-              <div class="wcard-arrow" aria-hidden="true">
-                <svg width="14" height="14" viewBox="0 0 24 24">
-                  <use href="#i-arrow-up-right" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="wcard wcard-3 reveal reveal-1">
-          <div class="wcard-inner">
-            <div>
-              <span class="wcard-tag">E-commerce · Responsive</span>
-              <h3 class="wcard-title">E-commerce &amp; Web<br />Relaunches</h3>
-              <div class="card-pills">
-                <span class="pill pill-dark">HTML/CSS</span>
-                <span class="pill pill-dark">Bootstrap</span>
-                <span class="pill pill-dark">JavaScript</span>
-              </div>
-            </div>
-            <div class="wcard-bottom">
-              <span class="wcard-year">2018 – 2019</span>
-              <div class="wcard-arrow" aria-hidden="true">
-                <svg width="14" height="14" viewBox="0 0 24 24">
-                  <use href="#i-arrow-up-right" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="wcard wcard-4 reveal reveal-4">
-          <div class="wcard-inner">
-            <div>
-              <span class="wcard-tag">Personal · UI</span>
-              <h3 class="wcard-title">Portfolio &amp;<br />UI Experiments</h3>
-              <div class="card-pills">
-                <span class="pill pill-light">Vanilla JS</span>
-                <span class="pill pill-light">CSS Animations</span>
-              </div>
-            </div>
-            <div class="wcard-bottom">
-              <span class="wcard-year">Ongoing</span>
-              <div class="wcard-arrow" aria-hidden="true">
-                <svg width="14" height="14" viewBox="0 0 24 24">
-                  <use href="#i-arrow-up-right" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section-skills" id="skills">
-      <div class="skills-top">
-        <h2 class="skills-heading reveal">
-          Tools I <em>actually</em><br />know well
-        </h2>
-        <p class="skills-desc reveal reveal-3">
-          Six years of shipping real products means knowing what works in
-          production — not just in tutorials.
-        </p>
-      </div>
-      <div class="skills-grid">
-        <div class="sk reveal">
-          React JS
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.7"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="12" cy="12" r="1.5" />
-              <ellipse cx="12" cy="12" rx="9" ry="3.5" />
-              <ellipse
-                cx="12"
-                cy="12"
-                rx="9"
-                ry="3.5"
-                transform="rotate(60 12 12)"
-              />
-              <ellipse
-                cx="12"
-                cy="12"
-                rx="9"
-                ry="3.5"
-                transform="rotate(120 12 12)"
-              />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-1">
-          JavaScript
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M13 2L3 14h7l-1 8 12-14h-7l1-6z" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-2">
-          Redux
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M3 10a7 7 0 0 1 12-4" />
-              <path d="M15 3v3h-3" />
-              <path d="M21 14a7 7 0 0 1-12 4" />
-              <path d="M9 21v-3h3" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-4">
-          Material UI
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M12 3v3" />
-              <path d="M21 12h-3" />
-              <path d="M12 21v-3" />
-              <path d="M3 12h3" />
-              <circle cx="12" cy="12" r="5" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-1">
-          CSS
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M5 3h14l-1.5 16-5.5 2-5.5-2L5 3z" />
-              <path d="M8 8h8" />
-              <path d="M8 12h6" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-2">
-          Bootstrap
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="4" y="3" width="16" height="18" rx="2" />
-              <path d="M9 7h4a2 2 0 0 1 0 4H9" />
-              <path d="M9 11h5a2 2 0 0 1 0 4H9" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-4">
-          Firebase
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M12 3c2 3 5 5 5 9a5 5 0 1 1-10 0c0-2.5 1.5-4.5 2.5-6.5"
-              />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-5">
-          Git
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="6" cy="6" r="2" />
-              <circle cx="6" cy="18" r="2" />
-              <circle cx="18" cy="12" r="2" />
-              <path d="M8 6h6a4 4 0 0 1 4 4" />
-              <path d="M6 8v8" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-2">
-          API Integration
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M7 10v4" />
-              <path d="M17 10v4" />
-              <path d="M8 8h8" />
-              <path d="M12 14v4" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-4">
-          Responsive Design
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="6" y="2" width="12" height="20" rx="2" />
-              <path d="M10 19h4" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-5">
-          E-commerce
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="9" cy="20" r="1.6" />
-              <circle cx="17" cy="20" r="1.6" />
-              <path d="M5 4h2l2 11h9l2-7H7" />
-            </svg>
-          </span>
-        </div>
-        <div class="sk reveal reveal-7">
-          Team Collaboration
-          <span class="sk-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M8 12l2 2 4-4" />
-              <path d="M3 12a4 4 0 0 1 4-4h3" />
-              <path d="M21 12a4 4 0 0 0-4-4h-3" />
-              <path d="M7 16h10" />
-            </svg>
-          </span>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section-contact" id="contact">
-      <p class="contact-label reveal">Get in touch</p>
-      <h2 class="contact-heading reveal reveal-2">
-        Let's build<br /><em>something good.</em>
-      </h2>
-      <p class="contact-sub reveal reveal-5">
-        Open to freelance work, collaborations, and interesting problems.
-      </p>
-      <div class="contact-meta reveal reveal-7">
-        <span class="contact-meta-item">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path
-              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"
-            />
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <!-- aurora -->
+        <div class="aurora" aria-hidden="true">
+          <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="g1" cx="0.3" cy="0.4" r="0.6">
+                <stop offset="0%" stop-color="#fff52f" stop-opacity="0.45"/>
+                <stop offset="100%" stop-color="#fff52f" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="g2" cx="0.7" cy="0.65" r="0.55">
+                <stop offset="0%" stop-color="#6b5dff" stop-opacity="0.32"/>
+                <stop offset="100%" stop-color="#6b5dff" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="g3" cx="0.5" cy="0.5" r="0.4">
+                <stop offset="0%" stop-color="#ff5e3a" stop-opacity="0.22"/>
+                <stop offset="100%" stop-color="#ff5e3a" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <ellipse class="blob b1" cx="360" cy="320" rx="380" ry="320" fill="url(#g1)"/>
+            <ellipse class="blob b2" cx="840" cy="500" rx="420" ry="340" fill="url(#g2)"/>
+            <ellipse class="blob b3" cx="600" cy="400" rx="260" ry="220" fill="url(#g3)"/>
           </svg>
-          <a href="tel:+917016056459">+91 70160 56459</a>
-        </span>
-        <span class="contact-meta-item">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          Sarjapur, Bangalore
-        </span>
-      </div>
-      <form
-        class="contact-form reveal reveal-8"
-        action="https://formspree.io/f/YOUR_FORM_ID"
-        method="POST"
-      >
-        <div class="cf-row">
-          <label class="cf-field">
-            <span>Name</span>
-            <input type="text" name="name" required autocomplete="name" />
-          </label>
-          <label class="cf-field">
-            <span>Email</span>
-            <input type="email" name="email" required autocomplete="email" />
-          </label>
         </div>
-        <label class="cf-field">
-          <span>Message</span>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <input
-          type="text"
-          name="_gotcha"
-          tabindex="-1"
-          autocomplete="off"
-          aria-hidden="true"
-          style="display: none"
-        />
-        <div class="cf-actions">
-          <button type="submit" class="btn btn-dark">Send message →</button>
-          <a href="mailto:amanraj_78@yahoo.in" class="btn btn-ghost"
-            >or email me</a
-          >
-          <button
-            type="button"
-            class="btn btn-ghost btn-copy"
-            id="copyEmailBtn"
-            data-email="amanraj_78@yahoo.in"
-            aria-label="Copy email address to clipboard"
-          >
-            <svg
-              class="btn-copy-icon"
-              width="14"
-              height="14"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              aria-hidden="true"
-            >
-              <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
-              <path
-                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+
+        <div class="hero-grid">
+          <div class="hero-meta">
+            <span class="status-pill">
+              <span class="status-dot"></span>
+              <span>Available for work</span>
+            </span>
+            <span class="hero-loc"><span class="loc-time" id="locTime">--:--</span> · Bangalore</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="line line-1"><span class="word">Building</span></span>
+            <span class="line line-2">
+              <span class="word italic-serif">delightful</span>
+              <span class="word-cycle" aria-hidden="true">
+                <span class="word-cycle-rotate">
+                  <span>front-ends.</span>
+                  <span>React apps.</span>
+                  <span>experiences.</span>
+                  <span>interfaces.</span>
+                  <span>front-ends.</span>
+                </span>
+              </span>
+              <span class="visually-hidden">front-end experiences.</span>
+            </span>
+          </h1>
+
+          <div class="hero-photo-wrap">
+            <picture>
+              <source srcset="assets/photo-transparent.avif" type="image/avif" />
+              <source srcset="assets/photo-transparent.webp" type="image/webp" />
+              <img
+                src="assets/photo-transparent.png"
+                alt="Aman Sharma"
+                width="864"
+                height="1184"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+                class="hero-photo"
               />
-            </svg>
-            <span class="btn-copy-label">Copy email</span>
-          </button>
-          <a
-            href="https://github.com/amanpsharma"
-            target="_blank"
-            rel="noopener"
-            class="btn btn-ghost"
-            >GitHub →</a
-          >
-          <a
-            href="https://www.linkedin.com/in/amanpsharma/"
-            target="_blank"
-            rel="noopener"
-            class="btn btn-ghost"
-            >LinkedIn →</a
-          >
+            </picture>
+            <span class="photo-tag photo-tag-1">Senior SWE</span>
+            <span class="photo-tag photo-tag-2">@ Litmus7</span>
+            <span class="photo-tag photo-tag-3">6y exp</span>
+          </div>
+
+          <p class="hero-sub">
+            Hi, I'm <strong>Aman</strong> — a Senior Software Engineer at
+            <strong>Litmus7</strong>. I ship polished, performant interfaces in React,
+            JavaScript, and modern CSS — with an eye for the small things that
+            make a product feel <em>good</em>.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-primary" data-magnet>
+              <span>See selected work</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M13 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost" data-magnet>Get in touch</a>
+            <a href="https://github.com/amanpsharma" target="_blank" rel="noopener" class="btn-icon-link" data-magnet aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.74 1.27 3.41.97.1-.76.4-1.27.74-1.56-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.93 10.93 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.26 5.65.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.55A11.5 11.5 0 0 0 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/amanpsharma/" target="_blank" rel="noopener" class="btn-icon-link" data-magnet aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22 0H2C.9 0 0 .88 0 1.96v20.07C0 23.12.9 24 2 24h20c1.1 0 2-.88 2-1.97V1.96C24 .88 23.1 0 22 0z"/></svg>
+            </a>
+          </div>
+
+          <a href="#work" class="scroll-cue" aria-label="Scroll to work">
+            <span class="scroll-cue-line"></span>
+            <span>scroll</span>
+          </a>
         </div>
-        <p class="cf-status" id="cfStatus" role="status" aria-live="polite"></p>
-      </form>
-    </section>
+      </section>
+
+      <!-- MARQUEE -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>React</span><span class="dot">●</span>
+          <span>JavaScript</span><span class="dot">●</span>
+          <span>Redux</span><span class="dot">●</span>
+          <span>Material UI</span><span class="dot">●</span>
+          <span>A/B Testing</span><span class="dot">●</span>
+          <span>Performance</span><span class="dot">●</span>
+          <span>Accessibility</span><span class="dot">●</span>
+          <span>E-commerce</span><span class="dot">●</span>
+          <span>React</span><span class="dot">●</span>
+          <span>JavaScript</span><span class="dot">●</span>
+          <span>Redux</span><span class="dot">●</span>
+          <span>Material UI</span><span class="dot">●</span>
+          <span>A/B Testing</span><span class="dot">●</span>
+          <span>Performance</span><span class="dot">●</span>
+          <span>Accessibility</span><span class="dot">●</span>
+          <span>E-commerce</span><span class="dot">●</span>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="section-head">
+          <span class="section-label"><span class="section-num">01</span>About</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <h2 class="h2">
+              I build interfaces<br />
+              <em class="serif-italic">that feel inevitable.</em>
+            </h2>
+            <p>
+              Six years across agencies and product companies — from ad-tech to
+              global e-commerce. Currently leading front-end at
+              <strong>Litmus7</strong>, where I run A/B testing and ship
+              experiences for <strong>Under Armour</strong>.
+            </p>
+            <p>
+              I care about taste, clarity, and code that holds up in
+              production. The best work feels obvious in hindsight — that's the
+              bar.
+            </p>
+          </div>
+          <div class="stats" data-stagger>
+            <div class="stat">
+              <div class="stat-num"><span data-count="6">0</span><span class="stat-plus">+</span></div>
+              <div class="stat-label">Years shipping front-end</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num"><span data-count="4">0</span></div>
+              <div class="stat-label">Companies · 4 industries</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">MCA</div>
+              <div class="stat-label">GTU · 2017</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num"><span data-count="20">0</span><span class="stat-plus">+</span></div>
+              <div class="stat-label">Production releases</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="experience" id="experience">
+        <div class="section-head">
+          <span class="section-label"><span class="section-num">02</span>Experience</span>
+          <h2 class="h2">A short<br /><em class="serif-italic">timeline.</em></h2>
+        </div>
+
+        <ol class="timeline" data-stagger>
+          <li class="tl-item current">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-year">Sep 2024 — Now</span>
+              <span class="tl-badge">Current</span>
+            </div>
+            <div class="tl-card">
+              <div class="tl-company">Litmus7</div>
+              <h3 class="tl-role">Senior Software Engineer</h3>
+              <ul>
+                <li>Lead front-end on enterprise React platforms — architecture, code quality, mentoring.</li>
+                <li>Run A/B testing for Under Armour: design experiments, build variants, ship winners.</li>
+                <li>Partner with product, design and backend to ship accessible, performant UI.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-year">2021 — Aug 2024</span>
+            </div>
+            <div class="tl-card">
+              <div class="tl-company">Costrategix Technologies</div>
+              <h3 class="tl-role">Front-end Developer</h3>
+              <ul>
+                <li>Built core logic for an ad-serving platform that scaled across large user bases.</li>
+                <li>Owned client production website + delivery alongside the project manager.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-year">2020 — 2021</span>
+            </div>
+            <div class="tl-card">
+              <div class="tl-company">Bigscal Technologies</div>
+              <h3 class="tl-role">Front-end Developer</h3>
+              <ul>
+                <li>Delivered React work on schedule for a US-based client, pixel-accurate to design.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-meta">
+              <span class="tl-year">2018 — 2019</span>
+            </div>
+            <div class="tl-card">
+              <div class="tl-company">Excelsior Code Studio</div>
+              <h3 class="tl-role">Front-end Developer</h3>
+              <ul>
+                <li>Designed, built, and relaunched responsive websites and e-commerce sites for multiple clients.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- WORK -->
+      <section class="work" id="work">
+        <div class="section-head">
+          <span class="section-label"><span class="section-num">03</span>Selected work</span>
+          <h2 class="h2">A few things<br /><em class="serif-italic">I'm proud of.</em></h2>
+          <a href="https://github.com/amanpsharma" target="_blank" rel="noopener" class="section-cta">All on GitHub →</a>
+        </div>
+
+        <div class="bento" data-stagger>
+          <article class="card card-feature" data-tilt>
+            <div class="card-tag"><span class="dot dot-yellow"></span>Featured · Litmus7</div>
+            <h3 class="card-title">A/B Testing for <em class="serif-italic">Under Armour</em></h3>
+            <p class="card-desc">Designing experiments, shipping variants, and turning measured wins into permanent UI on a global e-commerce footprint.</p>
+            <div class="card-pills">
+              <span class="pill">React</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Experimentation</span>
+              <span class="pill">Conversion</span>
+            </div>
+            <div class="card-foot">
+              <span>2024 — Now</span>
+              <span class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card card-2" data-tilt>
+            <div class="card-tag">Ad Tech · Costrategix</div>
+            <h3 class="card-title">Ad-Serving<br />Platform</h3>
+            <p class="card-desc">Core logic for campaigns, targeting, reporting — scaled across large user bases.</p>
+            <div class="card-pills">
+              <span class="pill">React</span><span class="pill">Redux</span>
+            </div>
+            <div class="card-foot"><span>2021 — 2024</span></div>
+          </article>
+
+          <article class="card card-3 card-accent" data-tilt>
+            <div class="card-tag">Client work · USA</div>
+            <h3 class="card-title">React App for<br />a US Client</h3>
+            <p class="card-desc">Pixel-accurate React UI with Material UI and Redux state.</p>
+            <div class="card-foot"><span>2020 — 2021</span></div>
+          </article>
+
+          <article class="card card-4" data-tilt>
+            <div class="card-tag">E-commerce · Web</div>
+            <h3 class="card-title">E-commerce<br />Relaunches</h3>
+            <p class="card-desc">Responsive websites and storefront relaunches for multiple clients.</p>
+            <div class="card-pills"><span class="pill">HTML/CSS</span><span class="pill">Bootstrap</span></div>
+            <div class="card-foot"><span>2018 — 2019</span></div>
+          </article>
+
+          <article class="card card-5" data-tilt>
+            <div class="card-tag">Personal · UI</div>
+            <h3 class="card-title">Portfolio &amp; UI<br />Experiments</h3>
+            <p class="card-desc">Side projects, vanilla-JS interactions, the page you're on.</p>
+            <div class="card-foot"><span>Ongoing</span></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills" id="skills">
+        <div class="section-head">
+          <span class="section-label"><span class="section-num">04</span>Skills</span>
+          <h2 class="h2">Tools I <em class="serif-italic">actually</em><br />use every day.</h2>
+        </div>
+        <div class="skills-grid" data-stagger>
+          <div class="sk"><span class="sk-name">React</span><span class="sk-meta">Daily · 6y</span></div>
+          <div class="sk"><span class="sk-name">JavaScript</span><span class="sk-meta">Daily · 6y</span></div>
+          <div class="sk"><span class="sk-name">Redux</span><span class="sk-meta">Production</span></div>
+          <div class="sk"><span class="sk-name">Material UI</span><span class="sk-meta">Production</span></div>
+          <div class="sk"><span class="sk-name">CSS / Sass</span><span class="sk-meta">Daily</span></div>
+          <div class="sk"><span class="sk-name">A/B Testing</span><span class="sk-meta">Litmus7</span></div>
+          <div class="sk"><span class="sk-name">Performance</span><span class="sk-meta">Lighthouse, Core Web Vitals</span></div>
+          <div class="sk"><span class="sk-name">Accessibility</span><span class="sk-meta">WCAG · ARIA</span></div>
+          <div class="sk"><span class="sk-name">REST APIs</span><span class="sk-meta">Daily</span></div>
+          <div class="sk"><span class="sk-name">Git</span><span class="sk-meta">Daily</span></div>
+          <div class="sk"><span class="sk-name">Firebase</span><span class="sk-meta">Side projects</span></div>
+          <div class="sk"><span class="sk-name">Bootstrap</span><span class="sk-meta">Legacy</span></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="contact-bg" aria-hidden="true"></div>
+        <div class="section-head">
+          <span class="section-label"><span class="section-num">05</span>Get in touch</span>
+        </div>
+        <h2 class="contact-headline">
+          Let's build<br />
+          <em class="serif-italic">something good.</em>
+        </h2>
+        <p class="contact-sub">
+          Open to <strong>full-time roles</strong>, <strong>freelance</strong>, and interesting problems.
+          Replies within a day.
+        </p>
+
+        <div class="contact-grid">
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            id="contactForm"
+          >
+            <div class="ff-row">
+              <label class="ff">
+                <input type="text" name="name" required autocomplete="name" placeholder=" " />
+                <span>Your name</span>
+              </label>
+              <label class="ff">
+                <input type="email" name="email" required autocomplete="email" placeholder=" " />
+                <span>Email</span>
+              </label>
+            </div>
+            <label class="ff">
+              <textarea name="message" rows="5" required placeholder=" "></textarea>
+              <span>Tell me about your project…</span>
+            </label>
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
+            <div class="ff-actions">
+              <button type="submit" class="btn btn-primary" data-magnet>
+                <span>Send message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <p class="ff-status" id="cfStatus" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+
+          <aside class="contact-side">
+            <div class="contact-card">
+              <span class="contact-label-tiny">Email</span>
+              <a class="contact-big" href="mailto:amanraj_78@yahoo.in">amanraj_78@yahoo.in</a>
+              <button type="button" class="contact-copy" id="copyEmailBtn" data-email="amanraj_78@yahoo.in" aria-label="Copy email">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                </svg>
+                <span class="contact-copy-label">Copy</span>
+              </button>
+            </div>
+            <div class="contact-card">
+              <span class="contact-label-tiny">Phone</span>
+              <a class="contact-big" href="tel:+917016056459">+91 70160 56459</a>
+            </div>
+            <div class="contact-card">
+              <span class="contact-label-tiny">Elsewhere</span>
+              <div class="contact-socials">
+                <a href="https://github.com/amanpsharma" target="_blank" rel="noopener" data-magnet>GitHub →</a>
+                <a href="https://www.linkedin.com/in/amanpsharma/" target="_blank" rel="noopener" data-magnet>LinkedIn →</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
 
     <!-- FOOTER -->
-    <footer>
-      <div class="footer-signature" aria-hidden="true">
-        <span class="sig-name">Aman sharma</span>
-        <svg
-          class="sig-swoosh"
-          viewBox="0 0 220 28"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M4 20 C 28 26, 58 4, 102 16 C 138 26, 168 4, 196 14 C 204 17, 212 22, 216 18"
-            pathLength="1"
-            stroke="currentColor"
-            stroke-width="2.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
+    <footer class="footer">
+      <div class="footer-sig" aria-hidden="true">
+        <span class="sig-name">Aman</span>
+        <svg class="sig-swoosh" viewBox="0 0 220 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 20 C 28 26, 58 4, 102 16 C 138 26, 168 4, 196 14 C 204 17, 212 22, 216 18" pathLength="1" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      <span class="footer-logo"
-        >Aman<span style="color: var(--yellow)">.</span></span
-      >
-      <ul class="footer-links">
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li>
-          <a href="https://github.com/amanpsharma" target="_blank" rel="noopener">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/amanpsharma/" target="_blank" rel="noopener">LinkedIn</a>
-        </li>
-      </ul>
-      <span class="footer-copy">© 2026 Aman Sharma</span>
+      <div class="footer-meta">
+        <span class="footer-clock">
+          <span class="status-dot small"></span>
+          Bangalore · <span id="footClock">--:--:--</span>
+        </span>
+        <span>© <span id="footYear">2026</span> Aman Sharma</span>
+      </div>
+      <div class="footer-links">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/amanpsharma" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/amanpsharma/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </footer>
 
     <!-- Chatbot -->
-    <button
-      type="button"
-      class="cb-fab"
-      id="cbFab"
-      aria-label="Open chat"
-      aria-expanded="false"
-      aria-controls="cbPanel"
-    >
-      <svg
-        class="cb-icon-chat"
-        width="22"
-        height="22"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        aria-hidden="true"
-      >
-        <path
-          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
-        />
-      </svg>
-      <svg
-        class="cb-icon-close"
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        aria-hidden="true"
-      >
-        <line x1="6" y1="6" x2="18" y2="18" />
-        <line x1="18" y1="6" x2="6" y2="18" />
-      </svg>
+    <button type="button" class="cb-fab" id="cbFab" aria-label="Open chat" aria-expanded="false" aria-controls="cbPanel">
+      <svg class="cb-icon-chat" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      <svg class="cb-icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
     </button>
-
-    <section
-      class="cb-panel"
-      id="cbPanel"
-      role="dialog"
-      aria-label="Chat with Aman"
-      aria-hidden="true"
-    >
+    <section class="cb-panel" id="cbPanel" role="dialog" aria-label="Chat with Aman" aria-hidden="true">
       <header class="cb-head">
         <div class="cb-head-info">
           <span class="cb-avatar" aria-hidden="true">A</span>
           <div>
             <div class="cb-head-name">Ask Aman</div>
-            <div class="cb-head-status">
-              <span class="cb-dot"></span>
-              Auto-reply · usually quick
-            </div>
+            <div class="cb-head-status"><span class="cb-dot"></span>Auto-reply · usually quick</div>
           </div>
         </div>
-        <button
-          type="button"
-          class="cb-head-close"
-          id="cbClose"
-          aria-label="Close chat"
-        >
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <line x1="6" y1="6" x2="18" y2="18" />
-            <line x1="18" y1="6" x2="6" y2="18" />
-          </svg>
+        <button type="button" class="cb-head-close" id="cbClose" aria-label="Close chat">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
         </button>
       </header>
-
-      <div
-        class="cb-log"
-        id="cbLog"
-        role="log"
-        aria-live="polite"
-        aria-atomic="false"
-      ></div>
-
+      <div class="cb-log" id="cbLog" role="log" aria-live="polite" aria-atomic="false"></div>
       <div class="cb-suggest" id="cbSuggest" aria-label="Suggested questions">
         <button type="button" data-q="What do you do?">What do you do?</button>
         <button type="button" data-q="Show me your skills">Your skills</button>
-        <button type="button" data-q="Where are you working?">
-          Current role
-        </button>
+        <button type="button" data-q="Where are you working?">Current role</button>
         <button type="button" data-q="How can I contact you?">Contact</button>
-        <button type="button" data-q="Tell me about your projects">
-          Projects
-        </button>
+        <button type="button" data-q="Tell me about your projects">Projects</button>
       </div>
-
       <form class="cb-input" id="cbForm" autocomplete="off">
-        <input
-          type="text"
-          id="cbInput"
-          placeholder="Ask anything…"
-          aria-label="Message"
-          maxlength="500"
-        />
+        <input type="text" id="cbInput" placeholder="Ask anything…" aria-label="Message" maxlength="500" />
         <button type="submit" aria-label="Send">
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <line x1="22" y1="2" x2="11" y2="13" />
-            <polygon points="22 2 15 22 11 13 2 9 22 2" />
-          </svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
         </button>
       </form>
     </section>
