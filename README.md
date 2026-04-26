@@ -31,26 +31,29 @@ Deployed at **https://aman-one-sharma.vercel.app/**
 
 ## Remaining placeholders
 
-| File | Placeholder | What to set |
-|---|---|---|
-| `index.html` | `YOUR_FORM_ID` (Formspree `action`) | Your Formspree form ID |
-| project root | `Aman_Resume.pdf` | Drop the actual PDF in place |
+| File         | Placeholder                         | What to set                  |
+| ------------ | ----------------------------------- | ---------------------------- |
+| `index.html` | `YOUR_FORM_ID` (Formspree `action`) | Your Formspree form ID       |
+| project root | `Aman_Resume.pdf`                   | Drop the actual PDF in place |
 
 ## Deploy
 
 This repo includes config for two zero-config static hosts:
 
 ### Netlify
+
 1. Drag the project folder onto [app.netlify.com/drop](https://app.netlify.com/drop) — done.
 2. Or `git push` to a connected repo. `_headers` is auto-applied.
 
 ### Vercel
+
 1. `npx vercel` from this directory — done.
 2. Or connect via the Vercel dashboard. `vercel.json` is auto-applied.
 
 Both hosts gzip/brotli-compress assets automatically and serve over HTTPS.
 
 ### GitHub Pages
+
 Push to a `gh-pages` branch or set the source to `main /`. The security headers in `_headers` / `vercel.json` will not apply on GH Pages — consider adding them via a Cloudflare proxy if needed.
 
 ## Features
